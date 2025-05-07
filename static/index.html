@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriBot - Your Farming Assistant</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Left Tree -->
+        <img class="tree left-tree" src="/static/tree.png" alt="Left Tree">
+        <!-- Right Tree -->
+        <img class="tree right-tree" src="/static/tree.png" alt="Right Tree">
+        <!-- Dynamic Header Section -->
+        <div id="headerSection">
+            <h1>AgriBot - Your Farming Assistant</h1>
+            <p>Ask about crop selection, pest management, soil health, or farming techniques!</p>
+        </div>
+
+        <!-- Authentication Section -->
+        <div class="auth-section" id="authSection">
+            <div class="auth-wrapper">
+                <form id="authForm">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button type="submit" id="authButton">Login</button>
+                </form>
+                <p id="authMessage"></p>
+                <p class="nav-link">Don't have an account? <a href="#" onclick="showSignup()">Create one</a></p>
+            </div>
+        </div>
+
+        <!-- Chat Section (Hidden initially) -->
+        <div class="greeting-header" id="greetingHeader" style="display: none;"></div>
+        <div class="chat-box" id="chatBox" style="display: none;"></div>
+        <div class="input-area" id="inputArea" style="display: none;"></div>
+
+        <!-- Avatar Speech Modal -->
+        <div id="avatarModal" class="avatar-modal" style="display: none;">
+            <div class="avatar-modal-content">
+                <span class="close-avatar" onclick="closeAvatarModal()">×</span>
+                <img src="https://static.vecteezy.com/system/resources/previews/020/194/557/non_2x/avatar-of-a-farmer-character-free-vector.jpg" alt="AgriBot Avatar" class="avatar-image">
+                <p id="avatarText"></p>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
