@@ -1,1 +1,18 @@
-AgriBot is an innovative agricultural advisory chatbot tailored for Indian farmers, offering region-specific guidance on crop selection, pest management, soil health, and weather updates. Built with Flask, the Gemini API, and the Web Speech API, it supports multilingual voice interactions in languages like English, Hindi, Tamil, Odia, Punjabi, Telugu, and Malayalam, making it accessible to rural farmers with limited literacy. The chatbot integrates real-time weather data from OpenWeatherMap to provide hyper-local forecasts and aims to incorporate AI-driven predictive analytics for proactive advice on pest outbreaks, disease risks, and yield potential, using historical data, weather patterns, and crop growth stage modeling. With a user-friendly interface, AgriBot enhances agricultural productivity by delivering actionable insights, such as suggesting crops like rice for Odisha’s alluvial soil or alerting farmers to apply fungicide before heavy rain, positioning it as a cutting-edge solution for modern farming challenges.
+AgriBot is a multilingual chatbot for Indian farmers, powered by the Gemini API and Web Speech API.  
+
+- 🌾 Ask about crops!
+-   Find the best ones for your region—like rice for Odisha’s alluvial soil.  
+
+It supports voice interactions in Hindi, Tamil, Odia, and more, ensuring accessibility.  
+
+- 🎙 Speak your query!
+-  Use voice mode to ask questions hands-free in your language.  
+
+With OpenWeatherMap integration, it delivers real-time weather updates.  
+
+- ☔ Get weather alerts!
+-  Know when to apply fungicide with forecasts like “Heavy rain in 48 hours!”  
+
+AgriBot aims to add AI-driven predictive analytics for pest and disease risks.  
+
+This interactive tool empowers farmers with actionable insights for better productivity.
