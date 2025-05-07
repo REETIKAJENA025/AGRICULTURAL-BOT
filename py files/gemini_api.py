@@ -4,8 +4,8 @@ import requests
 import json
 
 # Hardcode API keys directly (move to config.py for production)
-genai.configure(api_key="AIzaSyCa-yLrdVAB6SabaMRdzPMeS6KVdoxXlg8")  # Replace with your actual key
-OPENWEATHER_API_KEY = "23c2b38870dcfa36cb36544f4a90f818"
+genai.configure(api_key="")  # Add your actual api key
+OPENWEATHER_API_KEY = ""  # Add your actual api key
 
 def get_weather_data(region):
     """Fetch current weather data using OpenWeatherMap API."""
